@@ -490,4 +490,39 @@ body {
   height: 25px;
   padding-left: 6px;
 }
+@media (max-width: 600px) {
+  .wine-card, .event-card {
+    min-width: 200px;
+    padding: 8px;
+  }
+
+  .suggestion-button {
+    font-size: 13px;
+    padding: 6px 10px;
+  }
+
+  #user-input {
+    font-size: 14px;
+  }
+
+  #send-btn, #mic-btn {
+    font-size: 14px;
+    padding: 6px 10px;
+  }
+
+  .chat-message {
+    max-width: 100%;
+    font-size: 14px;
+  }
+
+  .wine-details li {
+    font-size: 13px;
+  }
+
+  .reserve-btn, .buy-btn, .book {
+    width: 100%;
+    font-size: 14px;
+    padding: 8px;
+  }
+}
 
